@@ -12,25 +12,42 @@
 
 <body>
    <div class="slider">
-      <div class="slider__images">
-         <img class="slider__image" id="img1" src="img/WeNeedToCook.jpg" alt="Yo Mr.White">
-         <img class="slider__image" id="img2" src="img/Blowfish.jpg" alt="Yo Mr.White">
-         <img class="slider__image" id="img3" src="img/ABQ.jpg" alt="Yo Mr.White">
-         <img class="slider__image" id="img4" src="img/ThatsAll.jpg" alt="Yo Mr.White">
-      </div>
-      <div class="slider__dots">
+      <div class="slider__inner">
          <input class="slider__radio" type="radio" name="slide" id="radioImg1" checked>
-         <label class="slider__label" for="radioImg1"></label>
-
          <input class="slider__radio" type="radio" name="slide" id="radioImg2">
-         <label class="slider__label" for="radioImg2"></label>
-
          <input class="slider__radio" type="radio" name="slide" id="radioImg3">
-         <label class="slider__label" for="radioImg3"></label>
-
          <input class="slider__radio" type="radio" name="slide" id="radioImg4">
-         <label class="slider__label" for="radioImg4"></label>
+
+         <div class="slider__images">
+            <img class="slider__image" id="img1" src="img/WeNeedToCook.jpg" alt="Yo Mr.White">
+            <img class="slider__image" id="img2" src="img/Blowfish.jpg" alt="Yo Mr.White">
+            <img class="slider__image" id="img3" src="img/WeCanCookIt.jpg" alt="Yo Mr.White">
+            <img class="slider__image" id="img4" src="img/ThatsAll.jpg" alt="Yo Mr.White">
+         </div>
+         <div class="slider__description">
+            <div class="slider__texts">
+               <div class="slider__text-container">
+                  <p class="slider__text">Jesse, we need to cook!</p>
+               </div>
+               <div class="slider__text-container">
+                  <p class="slider__text">Yo, Mr.White I'm a blowfish</p>
+               </div>
+               <div class="slider__text-container">
+                  <p class="slider__text">We can cook it!</p>
+               </div>
+               <div class="slider__text-container">
+                  <p class="slider__text">That's all biatch!</p>
+               </div>
+            </div>
+            <div class="slider__dots">
+               <label id="label1" class="slider__label" for="radioImg1"></label>
+               <label id="label2" class="slider__label" for="radioImg2"></label>
+               <label id="label3" class="slider__label" for="radioImg3"></label>
+               <label id="label4" class="slider__label" for="radioImg4"></label>
+            </div>
+         </div>
       </div>
+
    </div>
 </body>
 
